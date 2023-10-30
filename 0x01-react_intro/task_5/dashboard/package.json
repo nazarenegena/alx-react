@@ -16,7 +16,7 @@
     "build": "webpack build --config ./config/webpack.config.js",
     "start": "webpack serve --config ./config/webpack.config.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
