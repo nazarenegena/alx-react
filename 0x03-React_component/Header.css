@@ -1,0 +1,8 @@
+.App-header {
+  background-color:white;
+  display: flex;
+  align-items: center;
+    margin-left: 4rem;
+  font-size: calc(10px + 2vmin);
+  color: #E1233F;
+}
