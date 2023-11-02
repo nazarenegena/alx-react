@@ -1,1 +1,1 @@
-react props
+react component
