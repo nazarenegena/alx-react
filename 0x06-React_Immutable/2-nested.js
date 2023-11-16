@@ -1,21 +1,5 @@
-// Requiring the lodash library
-const _ = require("lodash");
+import { getIn, fromJS } from "immutable";
 
-function accessImmutableObject(object, array) {
-  let NewObject = object;
-  return _.get(NewObject, array);
+export default function accessImmutableObject(object, array) {
+  return getIn(fromJS(object), array);
 }
-
-module.exports = accessImmutableObject;
-
-console.log(
-  accessImmutableObject(
-    {
-      name: {
-        first: "Guillaume",
-        last: "Salva",
-      },
-    },
-    ["name", "first"]
-  )
-);

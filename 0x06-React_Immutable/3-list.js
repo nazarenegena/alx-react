@@ -1,5 +1,3 @@
-//  accepts an array as parameter &
-// converts it into an immutable List
 const { List } = require("immutable");
 
 export function getListObject(array) {
